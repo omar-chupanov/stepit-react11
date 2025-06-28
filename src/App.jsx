@@ -5,17 +5,14 @@ import './App.css'
 import { Header } from './components/Footer'
 import Footer from './components/Header'
 import Usecard from './components/Usecard'
+import Greeting from './components/Greeting'
 
 function App() {
 
   return (
     <>
-      <Header />
-      <p></p>
-      <Usecard name ='Omar'  age = {25}> 
-
-      </Usecard>
-      <Footer></Footer>
+      <Greeting name = 'Omar'></Greeting>
+      <Usecard name = 'Zlata' age = {25}></Usecard>
     </>
   )
 }
