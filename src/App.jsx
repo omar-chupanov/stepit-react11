@@ -7,6 +7,7 @@ import Footer from './components/Header'
 import Usecard from './components/Usecard'
 import Greeting from './components/Greeting'
 import ToggleText from './components/ToggleText'
+import Counter from './components/Counter'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Greeting name = 'Omar'></Greeting>
       <Usecard name = 'Zlata' age = {25}></Usecard>
       <ToggleText></ToggleText>
+      <Counter></Counter>
     </>
   )
 }
