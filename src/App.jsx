@@ -8,15 +8,13 @@ import Usecard from './components/Usecard'
 import Greeting from './components/Greeting'
 import ToggleText from './components/ToggleText'
 import Counter from './components/Counter'
+import ContactForm from './components/ContactForm'
 
 function App() {
 
   return (
     <>
-      <Greeting name = 'Omar'></Greeting>
-      <Usecard name = 'Zlata' age = {25}></Usecard>
-      <ToggleText></ToggleText>
-      <Counter></Counter>
+      <ContactForm></ContactForm>
     </>
   )
 }
